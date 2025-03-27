@@ -12,7 +12,7 @@ import { UserInfo, UserResponse } from '../interfaces/UserInfo';
 })
 export class AuthServiceService {
 
-  url: string = 'http://localhost:3000/api/riu';
+  url: string = 'https://prueba-tecnica-riu-production.up.railway.app/api/riu';
   isAuth = new Subject<boolean>();
   isAdmin = new BehaviorSubject<boolean>(false);
 
